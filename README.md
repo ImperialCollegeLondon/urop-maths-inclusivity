@@ -5,14 +5,14 @@ This is the official repository for two mathematical visualisations by Louis Sun
 ## TikZ: Slope fields
 For the differential equations chapter, we produced example slope fields to visualise the gradient defined by a given differential equation at sample points on a 2D plane. On the slope fields, example particular solutions are also drawn. Below are screenshots of example renders.
 
-### Slope field of $\frac{\mathrm{d}w}{\mathrm{d}t}=3-0.08w$
-[Example 1 of examples.tex](./assets/slopefield-example1.png)
-### Slope field of $\frac{\mathrm{d}y}{\mathrm{d}x}=k(2x+1)$
-[Example 2 of examples.tex](./assets/slopefield-example2.png)
-### Slope field of $\frac{\mathrm{d}y}{\mathrm{d}x}=-\frac{2x+y+1}{x+2y+1}$
-[Example 3 of examples.tex](./assets/slopefield-example3.png)
-
 There is also an additional [Desmos slope field generator](https://www.desmos.com/calculator/v2x5tqxdfa) for trying out custom differential equations.
+
+$$\frac{\mathrm{d}w}{\mathrm{d}t}=3-0.08w$$
+![Example 1 of examples.tex](./assets/slopefield-example1.png)
+$$\frac{\mathrm{d}y}{\mathrm{d}x}=k(2x+1)$$
+![Example 2 of examples.tex](./assets/slopefield-example2.png)
+$$\frac{\mathrm{d}y}{\mathrm{d}x}=-\frac{2x+y+1}{x+2y+1}$$
+![Example 3 of examples.tex](./assets/slopefield-example3.png)
 
 ## Manim: 3D integration visualised in animation
 In order to help ME1 students make sense of multidimensional integrals, animations were produced to visualise the sequential steps of integrating through a 3D domain. The [Manim](https://github.com/ManimCommunity/manim/tree/main) animation library was used, originally developed by [3Blue1Brown](https://www.youtube.com/@3blue1brown).
